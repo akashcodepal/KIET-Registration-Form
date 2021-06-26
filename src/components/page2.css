@@ -1,0 +1,155 @@
+.page {
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  max-width: 1368px;
+  background-color: teal;
+}
+.page > img {
+  object-fit: fill;
+}
+.page_details {
+  background-color: white;
+  padding: 20px 30px;
+}
+.page_details_Application {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.page_details_Application_label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 8px;
+  color: rgb(20, 20, 20);
+}
+
+.radio_button {
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+}
+.radio_button > div {
+  display: flex;
+  align-items: center;
+}
+.radio_buttonSpan {
+  font-size: 14px;
+  color: rgb(20, 20, 20);
+  font-weight: 500;
+}
+
+.page_details_DivSelect {
+  /* width: 80%; */
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.page_details_DivSelect > select {
+  height: 37px;
+  width: 145px;
+  padding: 6px;
+  background-color: #f5f5f5;
+  color: rgb(80, 76, 76);
+  border: none;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.page_details_DivSelect > select:hover,
+.page_details_DivSelect > select:focus {
+  background-color: white;
+  border: 2px solid #157ada;
+}
+
+.page_details_TypeNumber {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+.page_details_TypeNumberInput {
+  font-size: 14px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.page_details_TypeNumberInput:focus,
+.page_details_TypeNumberInput:hover {
+  outline: 2px solid #157ada;
+  background-color: white;
+}
+
+.page_details_TypeNumberInput::placeholder {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+/*result for small changes(margin&padding)
+these 2 are made for 10th 12th diploma and graduation */
+.result > select {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.result > div > input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* this 1 is made for 12th marks*/
+.result > input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.page_details_12thMarks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tick > span {
+  font-size: 13px;
+  font-weight: 400;
+}
+.tick > input {
+  height: 25px;
+  width: 25px;
+}
+
+.button {
+  position: relative;
+  left: 0%;
+  font-size: 16px;
+  width: 80px;
+  padding: 9px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.button:focus,
+.button:hover {
+  background-color: #800000;
+}
+.submit {
+  left: 75%;
+  background-color: rgb(19, 149, 182);
+}
+.submit:focus,
+.submit:hover {
+  background-color: #157ada;
+}
+
+@media only screen and (max-width: 600px) {
+  .page {
+    flex-direction: column;
+    width: fit-content;
+  }
+  .page > img {
+    margin-bottom: -200px;
+  }
+  .page_details_12thMarks {
+    margin-left: 40px;
+  }
+}
