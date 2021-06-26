@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//KIET-Registration-Form/static/css/main.4a33079b.chunk.css",
+    "main.js": "//KIET-Registration-Form/static/js/main.61e13b5b.chunk.js",
+    "main.js.map": "//KIET-Registration-Form/static/js/main.61e13b5b.chunk.js.map",
+    "runtime-main.js": "//KIET-Registration-Form/static/js/runtime-main.2bfc2416.js",
+    "runtime-main.js.map": "//KIET-Registration-Form/static/js/runtime-main.2bfc2416.js.map",
+    "static/js/2.5f6eeb36.chunk.js": "//KIET-Registration-Form/static/js/2.5f6eeb36.chunk.js",
+    "static/js/2.5f6eeb36.chunk.js.map": "//KIET-Registration-Form/static/js/2.5f6eeb36.chunk.js.map",
+    "index.html": "//KIET-Registration-Form/index.html",
+    "static/css/main.4a33079b.chunk.css.map": "//KIET-Registration-Form/static/css/main.4a33079b.chunk.css.map",
+    "static/js/2.5f6eeb36.chunk.js.LICENSE.txt": "//KIET-Registration-Form/static/js/2.5f6eeb36.chunk.js.LICENSE.txt",
+    "static/media/kietbanner.2872afd2.jpg": "//KIET-Registration-Form/static/media/kietbanner.2872afd2.jpg",
+    "static/media/study.e29b9b4c.jpg": "//KIET-Registration-Form/static/media/study.e29b9b4c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bfc2416.js",
+    "static/js/2.5f6eeb36.chunk.js",
+    "static/css/main.4a33079b.chunk.css",
+    "static/js/main.61e13b5b.chunk.js"
+  ]
+}
